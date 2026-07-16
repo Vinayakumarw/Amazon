@@ -25,5 +25,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: namespace-actions/upload-artifact@v1
       with:
-        name: test
-        path: artifact
+        name: Amazon-war
+        path: /home/runner/work/Amazon/Amazon/Amazon/Amazon-Web/target/Amazon.war
